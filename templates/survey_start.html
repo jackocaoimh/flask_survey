@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ survey.title }}</title>
+</head>
+<body>
+    <h2>{{ survey.title }}</h2>
+    <h3>{{ survey.instructions }}</h3>
+    <form action="/begin" method="post">
+        <button>Start Survey</button>
+    </form>
+</body>
+</html>
